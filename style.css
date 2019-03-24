@@ -1,0 +1,59 @@
+:root {
+    --bsc-purple: #5C3365;
+    --bsc-orange: #F3B000;
+    --bsc-blue: #2F9CCC;
+}
+
+.color-swab {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: white;
+    border-radius: 2px;
+    border: 0.5px solid grey;
+}
+
+.demo h1, .demo h2, .demo h3, .demo h4, .demo h5, .demo h6 {
+    font-family: 'Lobster Two', cursive;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;   
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.bg-purple {
+    background-color: var(--bsc-purple);
+}
+
+.purple {
+    color: var(--bsc-purple);
+}
+
+.bg-orange {
+    background-color: var(--bsc-orange);
+}
+
+.orange {
+    color: var(--bsc-orange);
+}
+
+.bg-blue {
+    background-color: var(--bsc-blue);
+}
+
+.blue {
+    color: var(--bsc-blue);
+}
+
+pre code {
+    display: block;
+    background-color: #EEE;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 
+}
