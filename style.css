@@ -8,9 +8,11 @@
     display: inline-block;
     width: 100px;
     height: 100px;
-    color: white;
-    border-radius: 2px;
-    border: 0.5px solid grey;
+    color: #FFFB;
+    font-size: 1.25em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
 }
 
 .demo h1, .demo h2, .demo h3, .demo h4, .demo h5, .demo h6 {
@@ -18,7 +20,12 @@
 }
 
 p {
-    font-family: 'Roboto', sans-serif;   
+    /*
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    */
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .logo {
@@ -48,6 +55,16 @@ p {
 
 .blue {
     color: var(--bsc-blue);
+}
+
+.navbar-brand {
+    font-family: 'Lobster Two', cursive;
+    color: var(--bsc-orange) !important;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
 }
 
 pre code {
